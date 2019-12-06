@@ -1,0 +1,43 @@
+.result {
+    margin-top: 3rem;
+    grid-column: content-start / content-end;
+    display: grid;
+    grid-gap: 2rem;
+    justify-items: center;
+    text-align: center;
+}
+
+.result-icon{
+    width: 30%; 
+}
+
+.game-button{
+        background-color: $color-primary-dark;
+        color: $color-blue;
+        border: none;
+        border-radius: 6px;
+        font-size: 3rem;
+        text-transform: uppercase;
+        padding: 1.3rem 2rem;
+        cursor: pointer;
+        transition: all .2s;
+
+        @media only screen and (max-width: $bp-large) {
+            font-size: 2.5rem;
+        }
+    
+        @media only screen and (max-width: $bp-medium) {
+            font-size: 2rem; 
+        }
+
+        &:hover {
+            transform: translateY(-2px) scale(1.03);
+            filter: brightness(70%);
+            box-shadow: 10px 10px 20px rgba($color: #000000, $alpha: .2);
+        }
+
+        &:active {
+            transform: translateY(-1px) scale(1.01);
+            box-shadow: 5px 5px 10px rgba($color: #000000, $alpha: .2); 
+        }
+}

@@ -1,0 +1,9 @@
+.game-cards {
+    margin: 3rem 0rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 0.15fr));
+    grid-auto-rows: 10rem; 
+    grid-gap: 3rem; 
+    justify-content: center;
+    align-content: center;
+}

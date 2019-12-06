@@ -1,0 +1,28 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-main-text;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-main-text;
+    padding: 3rem;
+    font-size: 1.5rem;
+    box-sizing: border-box; 
+}
+
+.App {
+    display:grid;
+    grid-template-rows: 70vh;
+    grid-template-columns: [full-start] 1fr [content-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [content-end] 1fr [full-end];
+}
+
+.message {
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    font-style: italic;
+    font-weight: bold; 
+}

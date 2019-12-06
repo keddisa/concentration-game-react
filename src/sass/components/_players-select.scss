@@ -1,0 +1,67 @@
+.players-select{
+    margin: 3rem 0rem;
+    grid-column: content-start / content-end;
+    display: grid;
+}
+
+.players-select-title {
+    font-size: 4rem;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    padding-top: 3rem;
+
+    @media only screen and (max-width: $bp-large) {
+        font-size: 2.5rem;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+        font-size: 2rem; 
+    }
+}
+
+.players-form{
+    display: grid;
+    margin: 3rem 0rem;
+    grid-template-columns: 1fr max-content 1fr max-content 1fr;
+
+    @media only screen and (max-width: $bp-medium) {
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+    }
+}
+
+.form-element {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border: 1px solid $color-main-text;
+    font-family: inherit;
+    border-radius: 2px;
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 1rem 2rem rgba($color: #000000, $alpha: .1);
+        border-bottom: 3px solid $color-blue;
+    }
+}
+
+.form-error-message {
+    color: #881600;
+    font-size: 1rem;
+    justify-self: left;
+    align-self: center;
+} 
+
+.start-button{
+    width: 20%;
+    align-self: center;
+    justify-self: center;
+
+    @media only screen and (max-width: $bp-large) {
+        width: 30%; 
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+        width: 40%; 
+    }
+}

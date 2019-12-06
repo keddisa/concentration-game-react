@@ -1,0 +1,35 @@
+.header {
+    background-image: linear-gradient(to right bottom, rgba($color-blue-light, .9), rgba($color-blue, .9)), url(images/cover.jpg);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr min-content 3fr;
+    grid-column: content-start / content-end;
+    border-bottom: 1px solid gainsboro;
+    font-family: sans-serif;
+    color: $color-primary-light;
+}
+
+.title {
+    font-size: 5rem;
+    align-self: center;
+    justify-self: center;
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    text-align: center;
+    padding-top: 3rem;
+
+    @media only screen and (max-width: $bp-large) {
+        font-size: 4rem;
+    }
+}
+
+.sub-title {
+    font-size: 3rem;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    @media only screen and (max-width: $bp-large) {
+        font-size: 2rem;
+    }
+}
+

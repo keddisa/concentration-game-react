@@ -1,0 +1,8 @@
+.footer {
+    background-color: #393f4d;
+    grid-column: content-start / content-end;
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    padding: 3rem 2rem;
+    margin-top: 2rem;
+}
