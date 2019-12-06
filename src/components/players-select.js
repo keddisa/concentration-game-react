@@ -47,7 +47,7 @@ const PlayersSelect = (props) => {
                 </div>
                 <div>
                     <input className="form-element" name="player1" onChange={onInputChange} value={tempPlayerNames[0]}/>
-                    {invalidFields[0] && <div className="form-error-message">This field in neccessary</div>}
+                    {invalidFields[0] && <div className="form-error-message">Sorry, you need to have a name!</div>}
                 </div>
                 
             </div>
@@ -57,7 +57,7 @@ const PlayersSelect = (props) => {
                 </div>
                 <div>
                     <input className="form-element" name="player2" onChange={onInputChange} value={tempPlayerNames[1]}/>
-                    {invalidFields[1] && <div className="form-error-message">This field in neccessary</div>}
+                    {invalidFields[1] && <div className="form-error-message">Sorry, you need to have a name!</div>}
                 </div>
                 
             </div>
