@@ -15,6 +15,9 @@ body {
   display: grid;
   grid-template-rows: 70vh;
   grid-template-columns: [full-start] 1fr [content-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [content-end] 1fr [full-end]; }
+  @media only screen and (max-width: 37em) {
+    .App {
+      grid-template-columns: [content-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [content-end]; } }
 
 .message {
   text-align: center;
@@ -65,6 +68,14 @@ body {
   grid-gap: 3rem;
   justify-content: center;
   align-content: center; }
+  @media only screen and (max-width: 37em) {
+    .game-cards {
+      grid-template-columns: repeat(auto-fit, minmax(7rem, 0.1fr));
+      grid-gap: 2rem; } }
+  @media only screen and (max-width: 25em) {
+    .game-cards {
+      grid-template-columns: repeat(auto-fit, minmax(6.5rem, 0.1fr));
+      grid-gap: 1rem; } }
 
 .game-card {
   background-color: #c0af78;
