@@ -8,6 +8,7 @@ const Game = (props) => {
     let [viewCards, setViewCards] = React.useState([false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false])
     let [removeCards, setRemoveCards] = React.useState([false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false])
     let [pending, setPending] = React.useState(false)
+    
     return(<div className="game-area">
         <Score score={props.score} playerNames={props.playerNames}/>
         <Messages player={player} playerNames={props.playerNames}/>

@@ -69,8 +69,7 @@ export default [
         name: "Grapes",
     },
     {   id: 4,
-        image: [<desc>A color styled icon from Orion Icon Library.</desc>,
-            <rect data-name="layer3"
+        image: [<rect data-name="layer3"
             x="2" y="31" width="60" height="12" rx="5" ry="5" fill="#964f48"></rect>,
             <path data-name="opacity" d="M58 40H8a5 5 0 0 1-5-5v-2a5 5 0 0 0-1 3v2a5 5 0 0 0 5 5h50a5 5 0 0 0 5-5 5 5 0 0 1-4 2z"
             fill="#101129" opacity=".18"></path>,
@@ -101,8 +100,7 @@ export default [
         name: "Burger",
     },
     {   id: 5,
-        image: [<desc>A color styled icon from Orion Icon Library.</desc>,
-            <path data-name="layer5"
+        image: [<path data-name="layer5"
             d="M54 30a22 22 0 1 1-44 0z" fill="#d5effb"></path>,
             <path data-name="opacity" d="M17 30h-7a22 22 0 0 0 22 22h.5A22.9 22.9 0 0 1 17 30z"
             fill="#101129" opacity=".18"></path>,
@@ -126,8 +124,7 @@ export default [
         name: "Icecream Bowl",
     },
     {   id: 6,
-        image: [<desc>A color styled icon from Orion Icon Library.</desc>,
-            <path fill="#faf287"
+        image: [<path fill="#faf287"
             d="M22.473 9.3L7 54l42.978-18.91C44.833 23.128 34.618 14.087 22.473 9.3z"
             data-name="layer3"></path>,
             <circle fill="#f04848" r="4" cy="23.999" cx="28.999" data-name="layer2"></circle>,
@@ -152,8 +149,7 @@ export default [
         name: "Pizza Slice",
     },
     {   id: 7,
-        image: [<desc>A color styled icon from Orion Icon Library.</desc>,
-            <ellipse fill="#fff4e8"
+        image: [<ellipse fill="#fff4e8"
             ry="5.999" rx="11.999" cy="22.014" cx="13.999" data-name="layer2"></ellipse>,
             <ellipse fill="#f04848" ry=".857" rx="2.571" cy="21.988" cx="13.999"
             data-name="layer1"></ellipse>,
@@ -193,8 +189,7 @@ export default [
         name: "Sushi Roll",
     },
     {   id: 8,
-        image: [<desc>A color styled icon from Orion Icon Library.</desc>,
-            <path data-name="layer1"
+        image: [<path data-name="layer1"
             d="M13.9 4s-1 8-2 10-.6 1.5 0 2 4.5 6.9 7.1 15.2 12 15.2 17.2 17.6 7.1 2.8 7.9 5.3-.7 5.9-8.8 5.9c-4.9 0-14.1-.7-23.4-10S1.2 33.1 2.6 25.7 5.9 14.9 5.9 14V4z"
             fill="#fede2c"></path>,
             <path data-name="opacity" d="M37.3 57c-4.9 0-14.1-.7-23.4-10S3.2 30.1 4.6 22.7 7.9 11.9 7.9 11V4h-2v10c0 .9-2.3 5.7-3.4 11.7S3.9 42 11.9 50s18.5 10 23.4 10c6.6 0 8.6-2.6 8.9-4.6-1.4.9-3.6 1.6-6.9 1.6z"
@@ -211,8 +206,7 @@ export default [
         name: "Bananas",
     },
     {   id: 9,
-        image: [<desc>A color styled icon from Orion Icon Library.</desc>,
-            <path data-name="layer3"
+        image: [<path data-name="layer3"
             d="M44 7.8a7.9 7.9 0 0 0-2.3.4 6 6 0 0 0-9.1-3.1A11 11 0 0 0 15.2 8H15a9 9 0 0 0-3 17.5V22h36v.7a8 8 0 0 0-4-14.9z"
             fill="#fbe9c7"></path>,
             <path data-name="layer2" d="M48 50h4a6 6 0 0 0 6-6V32a6 6 0 0 0-6-6h-4v4h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-4z"
@@ -232,8 +226,7 @@ export default [
         name: "Beer Pint",
     },
     {   id: 10,
-        image: [<desc>A color styled icon from Orion Icon Library.</desc>,
-            <path data-name="layer2"
+        image: [<path data-name="layer2"
             d="M53.9 28C53.1 17 46 2 46 2H18s-7.1 14.3-7.9 26" fill="#d5e2f4"></path>,
             <path data-name="layer1" d="M10.1 28c0 .7-.1 1.4-.1 2 0 11.1 10.1 16 22 16s22-4.9 22-16c0-.7 0-1.3-.1-2z"
             fill="#a41d34"></path>,

@@ -2,9 +2,7 @@ import React from 'react';
 
 const Card = (props) => {
     const onCardClicked = async () => {
-        console.log(props)
         if(props.pending) {
-            console.log("pending")
             return;
         }
         if(!props.viewCards[props.cardIndex]) {
@@ -14,7 +12,7 @@ const Card = (props) => {
             if(props.firstCard.id) { 
                 props.setPending(true)
                 if(props.firstCard.id === props.card.id){
-                    await setTimeout(() => {
+                    setTimeout(() => {
                         let updatedRemoveCards = [...props.removeCards];
                         updatedRemoveCards[props.cardIndex] = true;
                         updatedRemoveCards[props.firstCard.index] = true;
@@ -35,7 +33,7 @@ const Card = (props) => {
                     
                 } else {
                     props.setFirstCard({index: null, id: null})
-                    await setTimeout(()=>{
+                    setTimeout(()=>{
                         props.setPlayer(!props.player)
                         let updatedViewCards = [...props.viewCards];
                         updatedViewCards[props.cardIndex] = false;

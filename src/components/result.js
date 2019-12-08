@@ -11,7 +11,7 @@ const Result = (props) => {
         } else {
             setMessage(`CONGRATULATIONS, ${props.playerNames[1]}. You win`);
         }
-    }, [])
+    }, [props.score, props.playerNames])
     return(<div className="result">
         <svg className="result-icon" viewBox="0 0 70 70">
     <path d="M37 9h13.988l-.016-8H11v8h26z"
