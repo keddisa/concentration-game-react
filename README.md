@@ -40,16 +40,18 @@ Basic form validation for player names form, with customized error messages<br /
 
 The application consists of 10 different components structured as follows:
 
-`<App />` Containing the whole application
-    	`<Header />` Visible at all times
-    	`<PlayersSelect />`If visible, `Game` and `Result` components will not be visible. This will allow players to assign their names
-    	`<Game />` If visible, `PlayerSelect` and `Result` components will not be visible
-       		 `<Score />` Displays the score
-      		  `<Messages />` Displays a message describing who is playing
-        		`<Cards />` The game boards. It saps a cards array and displays them on the board
-           			 `<Card />` Displays individual representation of each element in a cards array
-   	 `<Result /> `If visible, `PlayersSelect` and `Game` components will not be visible. Shows who won the game, and gives the players an option to replay
-        		`<Score />` Displays the score (example for components reuse)
+`<App />` Containing the whole application <br />
+
+​    `<Header />` Visible at all times<br />
+
+​        `<PlayersSelect />`If visible, `Game` and `Result` components will not be visible. This will allow players to assign their names<br />
+​    	`<Game />` If visible, `PlayerSelect` and `Result` components will not be visible<br />
+​       		 `<Score />` Displays the score<br />
+​      		  `<Messages />` Displays a message describing who is playing<br />
+​        		`<Cards />` The game boards. It saps a cards array and displays them on the board<br />
+​           			 `<Card />` Displays individual representation of each element in a cards array<br />
+   	 `<Result /> `If visible, `PlayersSelect` and `Game` components will not be visible. Shows who won the game, and gives the players an option to replay<br />
+​        		`<Score />` Displays the score (example for components reuse)<br />
 
 ​		`<Footer />` Visible at all times
 
