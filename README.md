@@ -42,20 +42,21 @@ The application consists of 10 different components structured as follows:
 
 <App /> Containing the whole application
     <Header /> Visible at all times
-    <PlayersSelect />If visible, `Game` and `Result` components will not be visible. This will allow players to assign their names
-    <Game /> If visible, `PlayerSelect` and `Result` components will not be visible
-        <Score /> Displays the score
-        <Messages /> Displays a message describing who is playing
-        <Cards /> Maps a cards array and contain cards
-            <Card /> Displays individual representation of each element in a cards array
-    <Result /> If visible, `PlayersSelect` and `Game` components will not be visible
-        <Score /> Displays the score (example for components reuse)
+​    <PlayersSelect />If visible, `Game` and `Result` components will not be visible. This will allow players to assign their names
+​    <Game /> If visible, `PlayerSelect` and `Result` components will not be visible
+​        <Score /> Displays the score
+​        <Messages /> Displays a message describing who is playing
+​        <Cards /> The game boards. It saps a cards array and displays them on the board
+​            <Card /> Displays individual representation of each element in a cards array
+​    <Result /> If visible, `PlayersSelect` and `Game` components will not be visible. Shows who won the game, and gives the players an option to replay
+​        <Score /> Displays the score (example for components reuse)
+
     <Footer /> Visible at all times
 
 ### Design Logic
 
 ##### Toggling between `PlayersSelect`, `Game` and `Result` Components
-Only one of these components will be visible at a time. Toggling between them is done through two booleans created within the state of <App /> component. These two variables are called `gameOver` and `startGame`. Conditions for viewing these components are as follows
+Only one of these components will be visible at a time. Toggling between them is done through two Booleans created within the state of <App /> component. These two variables are called `gameOver` and `startGame`. Conditions for viewing these components are as follows
 <PlayersSelect /> `gameOver` = false, `startGame` = false
 <Game /> `gameOver` = false, `startGame` = true
 <Result /> `gameOver` = true, `startGame` = true

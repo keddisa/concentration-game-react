@@ -21,6 +21,13 @@
     @media only screen and (max-width: $bp-large) {
         font-size: 4rem;
     }
+    @media only screen and (max-width: $bp-medium) {
+        font-size: 3.5rem; 
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 3rem; 
+    }
 }
 
 .sub-title {
@@ -31,5 +38,7 @@
     @media only screen and (max-width: $bp-large) {
         font-size: 2rem;
     }
+
+
 }
 

@@ -10,6 +10,12 @@ body {
   padding: 3rem;
   font-size: 1.5rem;
   box-sizing: border-box; }
+  @media only screen and (max-width: 37em) {
+    body {
+      padding: 2rem; } }
+  @media only screen and (max-width: 25em) {
+    body {
+      padding: 1rem; } }
 
 .App {
   display: grid;
@@ -47,6 +53,12 @@ body {
   @media only screen and (max-width: 50em) {
     .title {
       font-size: 4rem; } }
+  @media only screen and (max-width: 37em) {
+    .title {
+      font-size: 3.5rem; } }
+  @media only screen and (max-width: 25em) {
+    .title {
+      font-size: 3rem; } }
 
 .sub-title {
   font-size: 3rem;
