@@ -42,25 +42,25 @@ The application consists of 10 different components structured as follows:
 
 `<App />` Containing the whole application <br />
 
-> > `<Header />` Visible at all times<br />
+> `<Header />` Visible at all times<br />
 
-> > `<PlayersSelect />`If visible, `Game` and `Result` components will not be visible. This will allow players to assign their names<br />
+> `<PlayersSelect />`If visible, `Game` and `Result` components will not be visible. This will allow players to assign their names<br />
 
-> > `<Game />` If visible, `PlayerSelect` and `Result` components will not be visible<br /
+> `<Game />` If visible, `PlayerSelect` and `Result` components will not be visible<br />
 
-`<Score />` Displays the score<br />
+> > `<Score />` Displays the score<br />
 
-`<Messages />` Displays a message describing who is playing<br /
+> > `<Messages />` Displays a message describing who is playing<br />
 
-`<Cards />` The game boards. It saps a cards array and displays them on the board<br /
+> > `<Cards />` The game boards. It saps a cards array and displays them on the board<br />
 
-`<Card />` Displays individual representation of each element in a cards array<br />
+> > > `<Card />` Displays individual representation of each element in a cards array<br />
 
-> > `<Result /> `If visible, `PlayersSelect` and `Game` components will not be visible. Shows who won the game, and gives the players an option to replay<br />
+> `<Result /> `If visible, `PlayersSelect` and `Game` components will not be visible. Shows who won the game, and gives the players an option to replay<br />
 
-`<Score />` Displays the score (example for components reuse)<br />
+> `<Score />` Displays the score (example for components reuse)<br />
 
-> > `<Footer />` Visible at all times
+> `<Footer />` Visible at all times
 
 ### Design Logic
 
