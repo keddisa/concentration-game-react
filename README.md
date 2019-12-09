@@ -12,16 +12,6 @@ Run the command `npm start`. This will run the app in the development mode<br />
 
 Open [http://localhost:3000](http://localhost:3000) to view the game in the browser.<br />
 
-### Production Mode
-
-Production code is provided under `build` folder of this project. The build folder is ready to be deployed<br />
-
-###### You may serve it with a static server
-
-run `npm install -g serve`
-
-run `serve -s build`
-
 
 ## Application Design
 
