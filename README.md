@@ -65,10 +65,7 @@ The application consists of 10 different components structured as follows:
 ### Design Logic
 
 ##### Toggling between `PlayersSelect`, `Game` and `Result` Components
-Only one of these components will be visible at a time. Toggling between them is done through two Booleans created within the state of '`<App />` component. These two variables are called `gameOver` and `startGame`. Conditions for viewing these components are as follows`
-<PlayersSelect />` is displayed when`gameOver` = false, `startGame` = false
-`<Game />` is displayed when`gameOver` = false, `startGame` = true
-`<Result />` is displayed when`gameOver` = true, `startGame` = true
+Only one of these components will be visible at a time. Toggling between them is done through two Booleans created within the state of '`<App />` component. These two variables are called `gameOver` and `startGame`. Conditions for viewing these components are as follows<br />- `<PlayersSelect />` is displayed when`gameOver` = false, `startGame` = false<br />- `<Game />` is displayed when`gameOver` = false, `startGame` = true<br />- `<Result />` is displayed when`gameOver` = true, `startGame` = true<br />
 
 ##### Cards array, creating the card deck and shuffling it
 - A base Array of cards has been created in an external file `cards-array.js` to keep the code cleaner. The `array` is an array of objects with 3 keys for each card: `id`, `image` and `name`. For images, `svg icons` have been used for better styling.
