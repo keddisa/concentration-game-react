@@ -1,5 +1,6 @@
 .footer {
     background-color: #393f4d;
+    color: $font-main-text;
     grid-column: content-start / content-end;
     display: grid;
     grid-template-columns: 50% 1fr;
